@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+       
+    <title>106 jQuery</title>
+    <!-- link style here -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+   
+    <h1>This is My TODO App</h1>
+
+    <div>
+        <label>ToDo:</label>
+        <input type="text" id="txtText">
+        <input type="button" id="btnSave" value="Create ToDo">
+    </div>
+
+        <!-- create the list dynamically -->
+        <ul id="pending">
+
+        </ul>
+
+
+    <!-- link scripts here -->
+    <!-- to prevent a slow page (one-tenth of a second per page) -->
+    <!-- for the best UX, put CSS in the head, JS at the end like this template -->
+    <!-- best to load the script at the end -->
+    <!-- the initial loading time is so important -->
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
